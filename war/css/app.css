@@ -1,0 +1,83 @@
+/** Add css rules here for your application. */
+
+#partyEventListPanel {
+  width: 100%;
+}
+
+#partyList {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  text-align: center;
+  width: 600px;
+}
+
+body, table td, select {
+  font-family: arial, helvetica, tahoma, sans-serif;
+}
+
+body {
+  margin: 0px;
+  text-align: center;
+}
+
+input {
+  vertical-align: middle;
+}
+
+.description {
+  margin-left: 5px;
+  width:32em;
+  height: 12em;
+  overflow-x: hidden;
+  white-space: wrap;
+}
+
+.addImg {
+  margin-left: 3px;
+  vertical-align: middle;
+}
+
+.addImg-enabled {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.newEventNameInput {
+  width: 42em;
+}
+
+.dollarImg {
+  cursor: pointer;
+  cursor: hand;
+  margin-left: 10px;
+}
+
+.deleteImg {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.stackHeader {
+  width:100%;
+}
+
+.stackHeader-readonly {
+  color: gray;
+}
+
+.dateHasParty {
+  color: green;
+}
+
+.newParticipantGroup td {
+  vertical-align: middle;
+}
+
+.stackItemMiddleCenterInner {
+  text-align: left;
+}
+
+.partyEventPanel {
+  text-align: left;
+}

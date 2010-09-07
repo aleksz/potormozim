@@ -1,0 +1,91 @@
+/** Common styles */
+.notificationDecorator .popupContent {
+  font-weight: bold;
+  font-size: 9pt;
+}
+
+.notificationDecorator .popupBottomLeftInner {
+  width: 5px;
+  height: 8px;
+  zoom: 1;
+}
+
+.notificationDecorator .popupBottomRightInner {
+  width: 8px;
+  height: 8px;
+  zoom: 1;
+}
+
+html>body .notificationDecorator {
+}
+
+* html .notificationDecorator .popupBottomLeftInner {
+  width: 5px;
+  height: 8px;
+  overflow: hidden;
+}
+
+* html .notificationDecorator .popupBottomRightInner {
+  width: 8px;
+  height: 8px;
+  overflow: hidden;
+}
+
+
+/** success styles */
+.successNotificationDecorator .popupMiddleCenter {
+  background: #93F79F;
+}
+
+.successNotificationDecorator .popupBottomCenter {
+  background: url(/images/greendecor/hborder.png) repeat-x 0px -4px;
+  -background: url(/images/greendecor/hborder_ie6.png) repeat-x 0px -4px;
+}
+
+.successNotificationDecorator .popupMiddleLeft {
+  background: url(/images/greendecor/vborder.png) repeat-y;
+}
+
+.successNotificationDecorator .popupMiddleRight {
+  background: url(/images/greendecor/vborder.png) repeat-y -4px 0px;
+  -background: url(/images/greendecor/vborder_ie6.png) repeat-y -4px 0px;
+}
+
+.successNotificationDecorator .popupBottomLeft {
+  background: url(/images/greendecor/corner.png) no-repeat 0px -15px;
+  -background: url(/images/greendecor/corner_ie6.png) no-repeat 0px -15px;
+}
+
+.successNotificationDecorator .popupBottomRight {
+  background: url(/images/greendecor/corner.png) no-repeat -5px -15px;
+  -background: url(/images/greendecor/corner_ie6.png) no-repeat -5px -15px;
+}
+
+/** error styles */
+.errorNotificationDecorator .popupMiddleCenter {
+  background: #DF6461;
+}
+
+.errorNotificationDecorator .popupBottomCenter {
+  background: url(/images/reddecor/hborder.png) repeat-x 0px -4px;
+  -background: url(/images/reddecor/hborder_ie6.png) repeat-x 0px -4px;
+}
+
+.errorNotificationDecorator .popupMiddleLeft {
+  background: url(/images/reddecor/vborder.png) repeat-y;
+}
+
+.errorNotificationDecorator .popupMiddleRight {
+  background: url(/images/reddecor/vborder.png) repeat-y -4px 0px;
+  -background: url(/images/reddecor/vborder_ie6.png) repeat-y -4px 0px;
+}
+
+.errorNotificationDecorator .popupBottomLeft {
+  background: url(/images/reddecor/corner.png) no-repeat 0px -15px;
+  -background: url(/images/reddecor/corner_ie6.png) no-repeat 0px -15px;
+}
+
+.errorNotificationDecorator .popupBottomRight {
+  background: url(/images/reddecor/corner.png) no-repeat -5px -15px;
+  -background: url(/images/reddecor/corner_ie6.png) no-repeat -5px -15px;
+}
